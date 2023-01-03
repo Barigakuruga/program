@@ -65,3 +65,28 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    display: block;
+    width: 100%;
+  }
+
+  .main-box {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .main-box:last-child {
+    margin: 0 5% 0 5%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
